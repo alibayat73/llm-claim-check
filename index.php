@@ -5,7 +5,7 @@ require 'helper.php';
 
 use OpenAI\Factory;
 
-$apiKey = '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';
+$apiKey = '';
 
 $client = new Factory()
     ->withApiKey($apiKey)
